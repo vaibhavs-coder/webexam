@@ -1,0 +1,162 @@
+#header{
+    display:flex;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgb(36, 13, 13);
+    border-style:solid;
+    border-bottom-color:gray;
+    border-width:1px;
+}
+.navbar{
+    height:70px;
+    width:1600px;
+    background-color: rgb(36, 13, 13);
+    padding-left:400px;
+    padding-top:5px;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:auto;
+    padding-left:8px;  
+}
+.navbar li a{
+    color:white;
+    font-family:'Roboto', sans-serif;
+    list-style:none;
+    text-decoration:none;
+    font-size:20px;
+    padding:5px;
+    
+}
+.navbar li a:hover{
+    color:green;
+}
+#logo{
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    margin-top:20px;
+}
+#header p{
+    color:white;
+    margin-left:10px;
+    margin-top:25px;
+}
+
+#btn{
+color:green;
+border-style:solid;
+border-color:green;
+background-color:rgb(36, 13, 13);
+border-radius:15px;
+width:200px;
+height:50px;
+margin-right:20px;
+margin-top:10px;
+}
+#btn:hover{
+    background-color:green;
+    color:white;
+}
+#short{
+    height:80px;
+    width:1300px;
+    margin-left:110px;
+    background-color: rgb(243, 202, 209);
+    margin-top:120px;
+    border-radius:5px;
+    padding-left:10px;
+}
+#short h2{
+    color:blue;
+    padding-top:5px;
+}
+#g1,#g2{
+    display:flex;
+    margin-top:25px;
+    padding-left:70px;
+    border-radius:7px;
+}
+#g1 img{
+    border-radius:7px;
+    height:300px;
+    width:400px;
+    padding-left:40px;
+}
+#g2 img{
+    
+        border-radius:7px;
+        height:300px;
+        width:400px;
+        padding-left:40px;
+}
+#second{
+    background-image:url("deep.jpg");
+    
+    height:400px;
+    width:1600px;
+    margin-top:20px;
+}
+#para{
+    color:rgb(60, 176, 60);
+    font-size:35px;
+    padding-top:30px;
+}
+#heading{
+    color:white;
+    font-size:50px;
+    padding-top:8px;
+    font-weight:bold;
+}
+#lorem{
+    font-size:20px;
+    color:white;
+    padding-top:10px;
+    height:90px;
+}
+#bt{
+    color:green;
+border-style:solid;
+border-color:green;
+background-color:greenyellow;
+border-radius:15px;
+border-style:solid;
+width:600px;
+padding:20px;
+height:500px;
+margin-top:80px;
+}
+#last{
+    background-color:black;
+    height:400px;
+    width:1600px;
+    display:flex;
+    padding-left:200px;
+
+}
+#last h1{
+    color:white;
+}
+#last div{
+    margin-left:130px;
+}
+#photo p{
+    color:white;
+}
+#icons{
+    display:flex;
+    margin-right:50px;
+}
+#icons div{
+    margin-left:10px;
+    border-color:green;
+    border-style:solid;
+    border-radius:1000000000px;
+    height:50px;
+    width:50px;
+    
+}
